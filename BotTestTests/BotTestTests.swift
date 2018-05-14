@@ -34,15 +34,13 @@ class BotTestTests: XCTestCase {
         XCTAssertEqual(result, 22, "Score computed from guess is wrong ")
         
     }
-    func addition(numberOne: Int, numberTwo: Int) -> Int{
-        
-        return numberOne + numberTwo
-        
-    }
+ 
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
+            XCTAssertEqual(result, 22, "Score computed from guess is wrong ")
+
         }
     }
     
