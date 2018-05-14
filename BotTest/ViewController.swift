@@ -14,9 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
+        let sum = addition(numberOne: 22, numberTwo: 44)
+        print(sum)
     }
     
-
+    func addition(numberOne: Int, numberTwo: Int) -> Int{
+        
+        return numberOne + numberTwo
+        
+    }
 }
 
